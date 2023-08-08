@@ -1,15 +1,5 @@
 public class River extends BattleLoc{
-    public River() {
-        super(new Bear());
-    }
-
-    @Override
-    boolean onLocation() {
-        return false;
-    }
-
-    @Override
-    void combat() {
-
+    public River(Player player) {
+        super(new Bear(), player, "River", random.nextInt(2)+1);
     }
 }

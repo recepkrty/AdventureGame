@@ -1,15 +1,5 @@
 public class Forest extends BattleLoc{
-    public Forest() {
-        super(new Vampire());
-    }
-
-    @Override
-    boolean onLocation() {
-        return false;
-    }
-
-    @Override
-    void combat() {
-
+    public Forest(Player player) {
+        super(new Vampire(), player, "Forest", random.nextInt(3)+1);
     }
 }

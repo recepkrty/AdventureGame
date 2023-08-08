@@ -1,16 +1,6 @@
 public class Cave extends BattleLoc{
 
-    public Cave() {
-        super(new Zombie());
-    }
-
-    @Override
-    boolean onLocation() {
-        return false;
-    }
-
-    @Override
-    void combat() {
-
+    public Cave(Player player) {
+        super(new Zombie(), player, "Cave", random.nextInt(3)+1);
     }
 }
