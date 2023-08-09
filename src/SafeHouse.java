@@ -8,6 +8,7 @@ public class SafeHouse extends NormalLoc{
     boolean onLocation() {
         System.out.println("You're in safe house...");
         System.out.println("Your health is full...");
+        this.getPlayer().setHealthy(Player.getHealth());
         return true;
     }
 }

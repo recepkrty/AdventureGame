@@ -4,6 +4,7 @@ public class Player {
     private int damage;
     private int healthy;
     private int money;
+    private static int health;
     private String name;
     private String playerName;
     private Inventory inventory;
@@ -26,6 +27,7 @@ public class Player {
                 player.setName("Samuray");
                 System.out.println("Samurayı seçtiniz...");
                 printCharacter(player);
+                player.setHealth(21);
                 break;
             case 2:
                 player.setDamage(7);
@@ -34,6 +36,7 @@ public class Player {
                 player.setName("Okçu");
                 System.out.println("Okçuyu seçtiniz...");
                 printCharacter(player);
+                player.setHealth(18);
                 break;
             case 3:
                 player.setDamage(8);
@@ -42,6 +45,7 @@ public class Player {
                 player.setName("Şövalye");
                 System.out.println("Şövalyeyi seçtiniz...");
                 printCharacter(player);
+                player.setHealth(24);
                 break;
             default:
                 System.out.println("Wrong Choose...!!");
@@ -80,9 +84,7 @@ public class Player {
                     location = new SafeHouse(this);
             }
         }
-
     }
-
     void printCharacter(Player player)
     {
         System.out.println("Karakter Adı: " + player.getName() + "\t\tHasar : "+ player.getDamage()+"\t\tSağlık : "+player.getHealthy()+"\t\tPara : "+player.getMoney());
@@ -133,5 +135,13 @@ public class Player {
 
     public void setPlayerName(String playerName) {
         this.playerName = playerName;
+    }
+
+    public static int getHealth() {
+        return health;
+    }
+
+    public static void setHealth(int health) {
+        Player.health = health;
     }
 }

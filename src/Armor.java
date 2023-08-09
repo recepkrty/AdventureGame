@@ -8,6 +8,11 @@ public class Armor {
         this.armorDefence = armorDefence;
         this.money = money;
     }
+    public Armor(){
+        this.armorName = "No Armor";
+        this.armorDefence = 0;
+        this.money = 0;
+    }
 
     public String getArmorName() {
         return armorName;

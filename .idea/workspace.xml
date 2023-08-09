@@ -6,15 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e0c9872c-92a8-49c3-97ca-a8b9e4ec781b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Armor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BattleLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BattleLoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Forest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Forest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/River.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vampire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vampire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zombie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SafeHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SafeHouse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,5 +52,16 @@
       <updated>1691436007122</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

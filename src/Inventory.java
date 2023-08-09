@@ -7,6 +7,7 @@ public class Inventory {
 
     public Inventory() {
         this.weapon = new Weapon();
+        this.armor = new Armor();
     }
 
     public boolean isWater() {
